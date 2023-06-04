@@ -1,0 +1,319 @@
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- FONTAWESOME START -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- FONTAWESOME END -->
+        <link rel="stylesheet" href="../styles/praxis.css" />
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous"
+        />
+        <!-- JavaScript Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"
+        ></script>
+        <script src="../js/main.js" type="module" defer></script>
+        <link rel="icon" type="image/x-icon" href="../images/favicon.svg" />
+        <!-- TITLE SCRIPT -->
+        <script>
+            (function titleScroller(text) {
+                document.title = text;
+                console.log(text);
+                setTimeout(function () {
+                    titleScroller(text.substr(1) + text.substr(0, 1));
+                }, 500);
+            })(" Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki ");
+        </script>
+        <title>
+            Über die Praxis | Tierarzt Praxis Hamburg Bergedorf Gerlitzki
+        </title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header>
+            <div class="logo_container">
+                <a href="../index.html"
+                    ><img
+                        src="../images/logo_noname_alt.png"
+                        alt="dr. Gerlitzki logo"
+                /></a>
+            </div>
+            <div class="kopfzeile">
+                <h1>Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki</h1>
+                <h2>
+                    Kleintiere &middot; Heimtiere &middot; Reptilien &middot;
+                    Amphibien &middot; Vögel
+                </h2>
+                <h3>
+                    Wentorfer Straße 15 &middot; 21029 Hamburg &middot; Telefon:
+                    040 / 721 4244
+                </h3>
+            </div>
+            <div class="times">
+                <div class="gradient"></div>
+                <h4>Unsere Sprechzeiten</h4>
+                <table>
+                    <tr>
+                        <th>Mo</th>
+                        <th>Di</th>
+                        <th>Mi</th>
+                        <th>Do</th>
+                        <th>Fr</th>
+                    </tr>
+                    <tr>
+                        <td>10 - 12 Uhr</td>
+                        <td>10 - 12 Uhr</td>
+                        <td>10 - 12 Uhr</td>
+                        <td>10 - 12 Uhr</td>
+                        <td>10 - 12 Uhr</td>
+                    </tr>
+                    <tr>
+                        <td>16 - 19 Uhr</td>
+                        <td>16 - 19 Uhr</td>
+                        <td>Geschlossen</td>
+                        <td>16 - 19 Uhr</td>
+                        <td>16 - 19 Uhr</td>
+                    </tr>
+                </table>
+                <div class="gradient"></div>
+            </div>
+        </header>
+        <div class="contact_buttons">
+            <a href="tel:+0407214244"><i class="fa-solid fa-phone"></i></a>
+            <a href="mailto:praxis@vet-gerlitzki.de"
+                ><i class="fa-solid fa-envelope"></i
+            ></a>
+        </div>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="../index.html"
+                                >Startseite</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="leistungen.html"
+                                >Leistungen</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="artikel.html"
+                                >Artikel</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="galerie.html"
+                                >Galerie</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="praxis.html"
+                                >Über die Praxis</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="kontakt.html"
+                                >Kontakt & Anfahrt</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="rhodos.html"
+                                >Rhodos</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                aria-current="page"
+                                href="links.html"
+                                >Links</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section class="welcome">
+                <div class="text_container_top">
+                    <div class="text_container">
+                        <h2 id="mid_head">Über die Praxis</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="information">
+                <article class="article_cards">
+                    <div class="image-container">
+                        <img
+                            src="../images/volkerg.jpeg"
+                            alt="Tierarzt Dr. Volker Robert Gerlitzki"
+                        />
+                    </div>
+                    <h3>Tierarzt Dr. Volker Robert Gerlitzki</h3>
+                    <p>
+                        Von 1983 bis 1989 hat Dr. Gerlitzki Tiermedizin an der
+                        Tierärztlichen Hochschule in Hannover studiert und
+                        begleitend in den verschiedenen Kliniken an der
+                        Hochschule, z.B. in der Vogelklinik, der Heimtierklinik,
+                        und der Klinik für kleine Haustiere gearbeitet. Nach
+                        seiner Approbation 1989 war er vielfach als
+                        Stellvertreter für verschiedene Kleintierpraxen rund um
+                        Hannover sowie als Klinikreferent tätig.
+                    </p>
+                    <p>
+                        Seine erste eigene Praxis eröffnete er Ende 1993 in Form
+                        einer Gemeinschaftspraxis mit Schwerpunkten in den
+                        Bereichen Kleintiere und Pferde. 1996 promovierte Dr.
+                        Gerlitzki zum Thema Insektengifte. Anschließend übernahm
+                        er eine bestehende Kleintierpraxis in Hamburg Bergedorf.
+                    </p>
+                    <p>
+                        Neben seiner Praxistätigkeit betreut der Tierarzt die
+                        Sporthundevereine in Geesthacht und Trittau.
+                    </p>
+                    <p>
+                        Sozial engagiert sich Dr. Gerlitzki im Verein "Tierärzte
+                        ohne Grenzen" e.V. Durch das Elend der wilden Hunde und
+                        Katzen auf Rhodos stark beeindruckt engagiert er sich
+                        seit 2011 intensiv im RAWS, dem Tierschutzverein Rhodos
+                        und arbeitet ehrenamtlich auch direkt vor Ort als
+                        Tierarzt. Weiterhin ist er im Vorstand der Lehmann
+                        Stiftung für das Miteinander von Mensch, Tier und Natur
+                        tätig.
+                    </p>
+                </article>
+                <article class="article_cards">
+                    <div class="image-container">
+                        <img
+                            src="../images/birgit-5d30482f.jpg"
+                            alt="Tierärztin Dr. Birgit Joswig"
+                        />
+                    </div>
+                    <h3>Tierärztin Dr. Birgit Joswig</h3>
+                    <ul>
+                        <li>Geb.: 04.09.1966</li>
+                        <li>Approbation: 1993</li>
+                        <li>Promotion: 1995</li>
+                    </ul>
+                    <p>
+                        Von 2000 bis 2009 führte Sie eine eigene Praxis in
+                        Vierlanden. Seit 2009 ist Sie für die pharmazeutische
+                        Industrie in der vorklinischen und klinischen Forschung
+                        tätig sowie feste Mitarbeiterin der Tierarztpraxis Dr.
+                        Gerlitzki . In mehreren lokalen Vereinen tätig kümmert
+                        Sie sich ebenfalls um Ihren beachtlichen Tierbestand.
+                    </p>
+                </article>
+            </section>
+
+            <section class="welcome">
+                <div class="text_container_top">
+                    <div class="text_container praxis-text">
+                        <h2 id="mid_head">Unsere Räumlichkeiten</h2>
+                        <p>
+                            Hier sehen Sie einen kleinen Vorgeschmack auf unsere
+                            Räumlichkeiten.
+                        </p>
+                        <p>
+                            Für mehr Bilder, besuchen Sie doch unsere
+                            <a
+                                href="galerie.html#praxis"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Galerie!</a
+                            >
+                        </p>
+                    </div>
+                </div>
+                <section class="galerie-container">
+                    <div class="galerie-item">
+                        <a
+                            href="../images/praxis_außen3.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            ><img
+                                src="../images/praxis_außen3.jpg"
+                                alt="praxis von außen"
+                        /></a>
+                    </div>
+                    <div class="galerie-item">
+                        <a
+                            href="../images/praxis_raeume6.jpg"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="../images/praxis_raeume6.jpg"
+                                alt="empfangsbereich"
+                            />
+                        </a>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer_icons">
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+            </div>
+            <p class="footer_copy">&copy; 2022 Dr. med. vet. Gerlitzki</p>
+            <div class="footer_links">
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutz</a>
+                <a href="#">Cookie-Einstellungen anpassen</a>
+            </div>
+        </footer>
+    </body>
+</html>
